@@ -84,12 +84,16 @@ header li{
     font-size: 10px;
 }
 
+.nav-menu ul{
+    font-size: 0;
+}
+
 .nav-menu a{
     color: #5d5c5c;
     font-size: 12px;
     display: block;
     font-weight: bold;
-    padding: 10px 10px;
+    padding: 10px 12px;
     transition: box-shadow 0.3s ease;
 }
 
@@ -188,6 +192,10 @@ input[type=button]{
 .search span{
     display: block;
     margin: 0 22px 0 0;
+}
+
+.search a{
+    transition: color 0.3s ease;
 }
 
 .search a:hover{
@@ -472,6 +480,7 @@ input[type=button]{
     border-bottom: 2px solid grey;
     border-radius: 5px;
     background-color: #252525;
+    transition: box-shadow 0.3s ease;
 }
 
 .post a:hover{
